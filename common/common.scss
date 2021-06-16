@@ -37,7 +37,7 @@ input[type="color"]:focus,
 textarea:focus {
   border-color: $color-royal;
   box-shadow: none;
-  border-radius: $radius-2;
+  border-radius: $radius-4;
   outline: none;
 }
 
@@ -169,7 +169,7 @@ textarea:focus {
 }
 
 .btn {
-  border-radius: $radius-4;
+  border-radius: $radius-8;
   background: $color-mint;
   color: $primary-high;
   .d-icon {
@@ -179,7 +179,7 @@ textarea:focus {
     &:hover,
     &.btn-hover {
       color: $color-white;
-      background: $tertiary-hover;
+      background: $color-green;
       .d-icon {
         color: $color-white;
       }
