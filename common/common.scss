@@ -168,8 +168,7 @@ textarea:focus {
 // Buttons
 // *------------------------------------------------*
 #create-topic{
-  border: 2px solid $color-royal;
-  background-color: $color-royal;
+  background: -webkit-linear-gradient(45deg, #00e08e, #f0c909, #f08c28, #eb3650);
   border-radius: 10px;
   color: $color-white;
   transition: .3s;
