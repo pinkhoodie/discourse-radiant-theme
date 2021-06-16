@@ -17,7 +17,7 @@ input[type="search"],
 input[type="tel"],
 input[type="color"],
 textarea {
-  border-radius: $radius-2;
+  border-radius: $radius-8;
 }
 
 input[type="text"]:focus,
@@ -45,6 +45,14 @@ textarea:focus {
 .d-date-time-input,
 .d-date-time-input-range {
   border-color: $primary-medium;
+}
+
+.category {
+  border-radius: $radius-8;
+}
+
+.category-box-inner {
+  border-radius: 0px 10px 10px 0px;
 }
 
 .select-kit {
