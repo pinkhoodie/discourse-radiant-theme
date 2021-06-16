@@ -11,8 +11,8 @@
   max-width: 1030px;
   padding: 3em 3em 5%;
   padding-bottom: 5% !important;
-  box-shadow: 0 8px 60px 0 rgba(103,151,255,.15), 0 12px 90px 0 rgba(103,151,255,.15);
-  border-top: 8px solid $tertiary;
+  box-shadow: 0 8px 60px 0 rgb(69 113 116 / 13%), 0 12px 90px 0 rgb(91 120 101 / 6%);
+  border-top: 8px solid #fbfbfb;
 }
 
 #main-outlet:after  {
@@ -45,7 +45,7 @@
 
 // Navigation Bar
 // *------------------------------------------------*
-.nav-pills li a {  
+.nav-pills li a {
   &.active {
     background-color: $color-green;
     border-radius: $radius-2;
