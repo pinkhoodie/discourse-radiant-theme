@@ -49,6 +49,8 @@ textarea:focus {
 
 .category {
   border-radius: $radius-8;
+  border-color: #eaeaea;
+  background: #fafafa;
 }
 
 .category-box-inner {
@@ -271,6 +273,7 @@ a.title {
   .nav-pills>li a.active {
     background: none;
     color: $tertiary;
+    border-radius: $radius-8;
   }
 }
 
