@@ -65,3 +65,14 @@
   border: none;
   border-radius: $radius-8;
 }
+
+a.title.raw-link.raw-topic-link {
+    font-size: 125%;
+}
+
+.topic-list .link-bottom-line .discourse-tags {
+    background: #c8c8c840;
+    padding: 4px;
+    border-radius: 38px;
+    font-size: 50%;
+}
