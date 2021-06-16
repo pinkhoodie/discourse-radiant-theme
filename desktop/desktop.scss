@@ -50,9 +50,10 @@
     background-color: $color-green;
     border-radius: $radius-2;
     color: $color-white;
+    border-radius: $radius-8;
   }
   &:hover {
-    border-radius: $radius-2;
+    border-radius: $radius-8;
     background-color: $tertiary;
     color: $color-white;
     box-shadow: 0 8px 60px 0 rgba(103,151,255,.20), 0 12px 90px 0 rgba(103,151,255,.20);
@@ -63,4 +64,5 @@
   background: transparent;
   color: $color-black;
   border: none;
+  border-radius: $radius-8;
 }
