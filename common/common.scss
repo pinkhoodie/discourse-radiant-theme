@@ -101,11 +101,11 @@ textarea:focus {
 }
 
 .modal-header {
-  border-bottom: 1px solid $color-mud;
+  border-bottom: 1px solid $color-mint;
 }
 
 .modal-footer {
-  border-top: 1px solid $color-mud;
+  border-top: 1px solid $color-mint;
   border: 0;
 }
 
@@ -170,7 +170,7 @@ textarea:focus {
 
 .btn {
   border-radius: $radius-4;
-  background: $color-mud;
+  background: $color-mint;
   color: $primary-high;
   .d-icon {
     color: $primary-high;
@@ -188,7 +188,7 @@ textarea:focus {
   &:hover,
   &.btn-hover {
     color: $primary-high;
-    background: $color-mud;
+    background: $color-mint;
     .d-icon {
       color: $primary-high;
     }
@@ -196,7 +196,7 @@ textarea:focus {
   &:active,
   &.btn-active {
     background-image: none;
-    background-color: $color-mud;
+    background-color: $color-mint;
     color: $primary-high;
     .d-icon {
       color: $primary-high;
@@ -230,14 +230,14 @@ table {
 // *------------------------------------------------*
 .search-container .search-advanced-sidebar {
   .search-advanced-title {
-    background: $color-mud;
+    background: $color-mint;
     border-radius: 10px 10px 0 0;
     color: $primary-high;
   }
   .search-advanced-filters {
     background: none;
     border-radius: 0 0 10px 10px;
-    border: 1px solid $color-mud;
+    border: 1px solid $color-mint;
   }
 }
 
